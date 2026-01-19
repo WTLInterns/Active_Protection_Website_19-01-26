@@ -1,0 +1,39 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 140) rotate(35) scale(920 520)">
+      <stop stop-color="rgba(255,255,255,0.20)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#r)"/>
+
+  <g opacity="0.9">
+    <rect x="120" y="130" width="1360" height="640" rx="28" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M260 510C330 420 430 360 560 360C700 360 800 428 860 510C920 592 1010 640 1130 640H1260" stroke="rgba(255,255,255,0.45)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M340 560C390 500 460 460 560 460C670 460 760 525 810 590C855 648 930 690 1040 690H1180" stroke="rgba(255,255,255,0.22)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="140" y="150" width="110" height="110" rx="28" fill="#dc2626"/>
+    <path d="M195 175L225 187V210C225 235 210 256 195 262C180 256 165 235 165 210V187L195 175Z" fill="white"/>
+    <path d="M190 215L180 205L175 210L190 225L220 195L215 190L190 215Z" fill="#dc2626"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="280" y="212" font-size="44" font-weight="800" fill="white">Active Protection Services</text>
+    <text x="280" y="260" font-size="22" font-weight="600" fill="rgba(255,255,255,0.78)">Professional Security • Training • Workforce Solutions</text>
+
+    <text x="220" y="370" font-size="30" font-weight="800" fill="rgba(255,255,255,0.92)">Disciplined teams. Clear SOPs. Consistent supervision.</text>
+    <text x="220" y="410" font-size="18" font-weight="500" fill="rgba(255,255,255,0.72)">Replace this placeholder banner with your real group-photo banner anytime.</text>
+  </g>
+</svg>
