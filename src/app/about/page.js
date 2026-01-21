@@ -6,7 +6,7 @@
         
 //         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 //           <div>
-//             <h2 className="text-2xl font-semibold text-orange-600 mb-4">Our Story</h2>
+//             <h2 className="text-2xl font-semibold text-red-600 mb-4">Our Story</h2>
 //             <p className="text-gray-700 mb-6">
 //               Active Protection has been a leading provider of security and housekeeping services for over a decade. 
 //               We started with a simple mission: to provide comprehensive safety and cleanliness solutions that give 
@@ -19,13 +19,13 @@
 //           </div>
           
 //           <div>
-//             <h2 className="text-2xl font-semibold text-orange-600 mb-4">Our Mission</h2>
+//             <h2 className="text-2xl font-semibold text-red-600 mb-4">Our Mission</h2>
 //             <p className="text-gray-700 mb-6">
 //               To be the most trusted security and housekeeping service provider by delivering innovative solutions, 
 //               exceptional customer service, and maintaining the highest standards of professionalism.
 //             </p>
             
-//             <h2 className="text-2xl font-semibold text-orange-600 mb-4">Our Vision</h2>
+//             <h2 className="text-2xl font-semibold text-red-600 mb-4">Our Vision</h2>
 //             <p className="text-gray-700">
 //               To create safer and cleaner environments for businesses and communities through excellence in 
 //               security and housekeeping services.
@@ -34,7 +34,7 @@
 //         </div>
         
 //         <div className="mt-16">
-//           <h2 className="text-2xl font-semibold text-orange-600 mb-8">Why Choose Us</h2>
+//           <h2 className="text-2xl font-semibold text-red-600 mb-8">Why Choose Us</h2>
 //           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 //             <div className="bg-white p-6 rounded-lg shadow-md">
 //               <h3 className="text-xl font-semibold mb-3">Expert Team</h3>
@@ -129,14 +129,12 @@ export default function AboutPage() {
       {/* <PageHeader title="About Us." /> */}
 
       {/* ================= INTRO SECTION ================= */}
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    {/* <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-16 items-center">
 
-          {/* IMAGE SIDE */}
           <div className="lg:col-span-6 relative flex items-center justify-center min-h-[400px]">
 
-            {/* MAIN IMAGE */}
             <motion.div
               variants={mainImage}
               initial="hidden"
@@ -153,7 +151,6 @@ export default function AboutPage() {
               />
             </motion.div>
 
-            {/* SECOND IMAGE */}
             <motion.div
               variants={crossImage}
               initial="hidden"
@@ -171,7 +168,6 @@ export default function AboutPage() {
             </motion.div>
           </div>
 
-          {/* CONTENT */}
           <motion.div
             variants={contentVariant}
             initial="hidden"
@@ -180,10 +176,10 @@ export default function AboutPage() {
             className="lg:col-span-6"
           >
             <div className="mb-6">
-              <span className="text-sm font-bold tracking-widest text-orange-500 uppercase">
+              <span className="text-sm font-bold tracking-widest text-red-500 uppercase">
                 About Active Protection
               </span>
-              <div className="w-20 h-1 bg-orange-500 mt-2"></div>
+              <div className="w-20 h-1 bg-red-600 mt-2"></div>
             </div>
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -196,15 +192,15 @@ export default function AboutPage() {
 
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
-                <div className="w-6 h-6 rounded-full bg-orange-500 flex-shrink-0 mt-1"></div>
+                <div className="w-6 h-6 rounded-full bg-red-600 flex-shrink-0 mt-1"></div>
                 <span className="text-gray-700">ISO-certified organization with 25+ years of experience</span>
               </li>
               <li className="flex items-start gap-4">
-                <div className="w-6 h-6 rounded-full bg-orange-500 flex-shrink-0 mt-1"></div>
+                <div className="w-6 h-6 rounded-full bg-red-600 flex-shrink-0 mt-1"></div>
                 <span className="text-gray-700">Registered under PSARA across 15 states</span>
               </li>
               <li className="flex items-start gap-4">
-                <div className="w-6 h-6 rounded-full bg-orange-500 flex-shrink-0 mt-1"></div>
+                <div className="w-6 h-6 rounded-full bg-red-600 flex-shrink-0 mt-1"></div>
                 <span className="text-gray-700">Serving diverse sectors with trained professionals</span>
               </li>
             </ul>
@@ -212,7 +208,7 @@ export default function AboutPage() {
 
         </div>
       </div>
-    </section>
+    </section> */}
 
 
       {/* ================= MISSION & VISION ================= */}
@@ -225,13 +221,13 @@ export default function AboutPage() {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <span className="text-sm font-bold tracking-widest text-orange-500 uppercase">
+        <span className="text-sm font-bold tracking-widest text-red-600 uppercase">
           Our Purpose
         </span>
         <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
           Mission & Vision
         </h2>
-        <div className="w-24 h-1 bg-orange-500 mx-auto mt-6"></div>
+        <div className="w-24 h-1 bg-red-600 mx-auto mt-6"></div>
       </motion.div>
     </div>
 
@@ -247,7 +243,7 @@ export default function AboutPage() {
           className="bg-gray-50 rounded-2xl p-8 border border-gray-200"
         >
           <div className="flex items-center mb-6">
-            <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mr-4">
+            <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mr-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
@@ -268,7 +264,7 @@ export default function AboutPage() {
           className="bg-gray-50 rounded-2xl p-8 border border-gray-200"
         >
           <div className="flex items-center mb-6">
-            <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mr-4">
+            <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mr-4">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
@@ -341,13 +337,13 @@ export default function AboutPage() {
       viewport={{ once: true }}
       className="text-center mb-16"
     >
-      <span className="text-sm font-bold tracking-widest text-orange-500 uppercase">
+      <span className="text-sm font-bold tracking-widest text-red-600 uppercase">
         Why Choose Us
       </span>
       <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
         Trusted Security Solutions
       </h2>
-      <div className="w-24 h-1 bg-orange-500 mx-auto mt-6"></div>
+      <div className="w-24 h-1 bg-red-600 mx-auto mt-6"></div>
       <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
         Building long-term partnerships through excellence, discipline, and unwavering commitment to your safety
       </p>

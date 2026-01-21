@@ -162,7 +162,7 @@ export default function TrainingPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                 Our Training Philosophy
               </h2>
-              <div className="w-20 h-1 bg-orange-500 mb-8"></div>
+              <div className="w-20 h-1 bg-red-600 mb-8"></div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 At Active Protection, we prepare our officers and staff to put their best foot forward through a continuing program of training and supervision that is a model for the industry.
               </p>
@@ -205,20 +205,20 @@ export default function TrainingPage() {
       viewport={{ once: true }}
       className="text-center mb-16"
     >
-      <span className="text-sm font-bold tracking-widest text-orange-500 uppercase">
+      <span className="text-sm font-bold tracking-widest text-red-600 uppercase">
         Comprehensive Training
       </span>
       <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
         Training Areas
       </h2>
-      <div className="w-24 h-1 bg-orange-500 mx-auto mt-6"></div>
+      <div className="w-24 h-1 bg-red-600 mx-auto mt-6"></div>
     </motion.div>
 
     <div className="relative">
       {/* Main Progress Line - Horizontal */}
       <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-300 transform -translate-y-1/2 z-0">
         <motion.div 
-          className="h-full bg-orange-500"
+          className="h-full bg-red-600"
           initial={{ width: 0 }}
           whileInView={{ width: "100%" }}
           viewport={{ once: true }}
@@ -293,7 +293,7 @@ export default function TrainingPage() {
             {/* Vertical Line for each item */}
             <div className="absolute top-1/3 left-1/2 w-0.5 h-10 bg-gray-300 transform -translate-x-1/2 -translate-y-1/2 z-0">
               <motion.div 
-                className="w-full bg-orange-500"
+                className="w-full bg-red-600"
                 initial={{ height: 0 }}
                 whileInView={{ height: "100%" }}
                 viewport={{ once: true }}
@@ -348,7 +348,7 @@ export default function TrainingPage() {
         {/* Vertical Progress Line */}
         <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-300 z-0">
           <motion.div 
-            className="w-full bg-orange-500"
+            className="w-full bg-red-600"
             initial={{ height: 0 }}
             whileInView={{ height: "100%" }}
             viewport={{ once: true }}
@@ -496,7 +496,7 @@ export default function TrainingPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                 Key Management Issues
               </h2>
-              <div className="w-20 h-1 bg-orange-500 mb-8"></div>
+              <div className="w-20 h-1 bg-red-600 mb-8"></div>
               <ul className="space-y-4">
                 {[
                   "Knowledge of key locations/security items at client's premises",
@@ -530,7 +530,7 @@ export default function TrainingPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                 On Site Training
               </h2>
-              <div className="w-20 h-1 bg-orange-500 mb-8"></div>
+              <div className="w-20 h-1 bg-red-600 mb-8"></div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 In addition to Class Room Training, every individual is also imparted "On Site Training" in handling issues as per client's requirements / ground conditions.
               </p>
@@ -570,13 +570,13 @@ export default function TrainingPage() {
       viewport={{ once: true }}
       className="text-center mb-16"
     >
-      <span className="text-sm font-bold tracking-widest text-orange-500 uppercase">
+      <span className="text-sm font-bold tracking-widest text-red-500 uppercase">
         World Class Facility
       </span>
       <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4">
         Training Academy
       </h2>
-      <div className="w-24 h-1 bg-orange-500 mx-auto mt-6"></div>
+      <div className="w-24 h-1 bg-red-600 mx-auto mt-6"></div>
       <p className="mt-6 text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
         The training academy of MIDC Baramati spread over one acre of land caters to imparting highly trained professionals for our esteemed clients.
       </p>
@@ -589,7 +589,7 @@ export default function TrainingPage() {
     <div className="relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-orange-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-600 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
       </div>
 
@@ -614,13 +614,13 @@ export default function TrainingPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               {/* Animated Pulse */}
-              <div className="absolute inset-0 rounded-full bg-orange-500 opacity-0 group-hover:opacity-20 animate-ping"></div>
+              <div className="absolute inset-0 rounded-full bg-red-600 opacity-0 group-hover:opacity-20 animate-ping"></div>
             </div>
           </div>
           
           <div className="text-center">
             <div className="inline-flex items-center gap-2 mb-4">
-              <span className="text-2xl font-bold text-orange-600">24x7</span>
+              <span className="text-2xl font-bold text-red-600">24x7</span>
               <h3 className="text-2xl font-bold text-gray-900">Support</h3>
             </div>
             <p className="text-gray-600 leading-relaxed text-lg">
@@ -629,11 +629,11 @@ export default function TrainingPage() {
             <div className="mt-6 pt-6 border-t border-gray-100">
               <div className="flex items-center justify-center gap-4 text-sm text-gray-500">
                 <span className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                  <div className="w-2 h-2 bg-red-600 rounded-full"></div>
                   Emergency Response
                 </span>
                 <span className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                  <div className="w-2 h-2 bg-red-600 rounded-full"></div>
                   QRT Vehicle
                 </span>
               </div>

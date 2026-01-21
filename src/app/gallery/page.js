@@ -239,7 +239,7 @@ export default function GalleryPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg mb-2 border border-white/40 shadow-xl">
-                  <div className="text-3xl font-bold text-orange-500">500+</div>
+                  <div className="text-3xl font-bold text-red-500">500+</div>
                 </div>
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg border border-white/40 shadow-xl">
                   <p className="text-gray-100">Security Personnel Trained</p>
@@ -247,7 +247,7 @@ export default function GalleryPage() {
               </div>
               <div className="text-center">
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg mb-2 border border-white/40 shadow-xl">
-                  <div className="text-3xl font-bold text-orange-500">100+</div>
+                  <div className="text-3xl font-bold text-red-500">100+</div>
                 </div>
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg border border-white/40 shadow-xl">
                   <p className="text-gray-100">Clients Served</p>
@@ -255,7 +255,7 @@ export default function GalleryPage() {
               </div>
               <div className="text-center">
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg mb-2 border border-white/40 shadow-xl">
-                  <div className="text-3xl font-bold text-orange-500">10+</div>
+                  <div className="text-3xl font-bold text-red-500">10+</div>
                 </div>
                 <div className="inline-block bg-blue-400/30 backdrop-blur-lg px-3 py-0.5 rounded-lg border border-white/40 shadow-xl">
                   <p className="text-gray-100">Years of Excellence</p>

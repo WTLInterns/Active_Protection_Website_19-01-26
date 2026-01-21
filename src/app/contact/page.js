@@ -78,7 +78,7 @@ export default function ContactPage() {
     {
       icon: "✉️",
       title: "Email Address",
-      details: ["ho@activeprotection.in"]
+      details: ["sales@activeprotection.in"]
     },
     {
       icon: "📍",
@@ -226,7 +226,7 @@ export default function ContactPage() {
                       <br />
                       02112244480, 243113. 243184, 209561
                       <br />
-                      ho@activeprotection.in
+                     sales@activeprotection.in
                     </p>
                   </div>
                 </div>

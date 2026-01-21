@@ -62,8 +62,8 @@ export default function Home() {
     if (carouselRef.current && isVisible) {
       const scrollContainer = carouselRef.current;
       let scrollPosition = 0;
-      const scrollSpeed = 1; // pixels per frame
-      const scrollInterval = 50; // milliseconds
+      const scrollSpeed = 3; // pixels per frame
+      const scrollInterval = 30; // milliseconds
 
       const scroll = () => {
         if (scrollPosition >= scrollContainer.scrollWidth - scrollContainer.clientWidth) {
@@ -110,32 +110,32 @@ export default function Home() {
                 }`}
             >
               <div className="bg-white p-8 rounded-lg shadow-lg ml-8">
-                <h3 className="text-2xl font-bold mb-4 text-orange-600">WE PROVIDE VERIFIED & SECURED SERVICES</h3>
+                <h3 className="text-2xl font-bold mb-4 text-red-700">WE PROVIDE VERIFIED & SECURED SERVICES</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   Registered with Private Security Agencies Regulation Act. (PSARA), Active Protection Services Pvt. Ltd., is an Ex-Servicemen Organization. We provide Quality Security' Allied Services to organizations across industries.
                 </p>
 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-orange-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-red-700 rounded-full mt-2"></div>
                     <p className="text-gray-700">Professional security personnel</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-orange-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-red-700 rounded-full mt-2"></div>
                     <p className="text-gray-700">Comprehensive training programs</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-orange-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-red-700 rounded-full mt-2"></div>
                     <p className="text-gray-700">Expert security consulting</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-orange-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-red-700 rounded-full mt-2"></div>
                     <p className="text-gray-700">Risk assessment solutions</p>
                   </div>
                 </div>
 
                 <Link href="/about">
-                  <button className="mt-8 bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                  <button className="mt-8 bg-red-700 hover:bg-orange-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Read More
                   </button>
                 </Link>
@@ -159,11 +159,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Security Services</h3>
                     <p className="text-xs mb-3 text-gray-200">Professional security personnel and solutions for your business needs.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -179,11 +179,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Payroll Services</h3>
                     <p className="text-xs mb-3 text-gray-200">Comprehensive payroll management and salary processing solutions.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -199,11 +199,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Man Power Services</h3>
                     <p className="text-xs mb-3 text-gray-200">Skilled manpower solutions for various industry requirements.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -219,11 +219,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Housekeeping Services</h3>
                     <p className="text-xs mb-3 text-gray-200">Professional cleaning and facility management solutions.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -239,11 +239,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Fire Services</h3>
                     <p className="text-xs mb-3 text-gray-200">Fire safety equipment and emergency response services.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -259,11 +259,11 @@ export default function Home() {
                   height={350}
                   className="w-72 h-96 object-cover"
                 />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-out">
-                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out">
+                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-400 ease-out">
+                  <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-400 ease-out">
                     <h3 className="text-lg font-bold mb-1">Cash Squad</h3>
                     <p className="text-xs mb-3 text-gray-200">Secure cash management and armored vehicle services.</p>
-                    <Link href="/services" className="text-orange-400 hover:text-orange-300 font-semibold text-xs">
+                    <Link href="/services" className="text-red-400 hover:text-red-300 font-semibold text-xs">
                       More Information →
                     </Link>
                   </div>
@@ -301,7 +301,7 @@ export default function Home() {
 
             {/* Card 1 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 ${objectivesVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}`}>
-              <ShieldCheck className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <ShieldCheck className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Operational Excellence</h3>
               <p className="text-gray-600 text-sm">
                 Delivering superior security services with unmatched professionalism and reliability.
@@ -310,7 +310,7 @@ export default function Home() {
 
             {/* Card 2 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 delay-200 ${objectivesVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
-              <Target className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <Target className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Superior Ethics</h3>
               <p className="text-gray-600 text-sm">
                 Upholding the highest standards of integrity and ethical conduct in all operations.
@@ -319,7 +319,7 @@ export default function Home() {
 
             {/* Card 3 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 delay-300 ${objectivesVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
-              <Settings className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <Settings className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Better Training</h3>
               <p className="text-gray-600 text-sm">
                 Continuous skill development and advanced training programs for our security personnel.
@@ -328,7 +328,7 @@ export default function Home() {
 
             {/* Card 4 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 delay-500 ${objectivesVisible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
-              <ShieldCheck className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <ShieldCheck className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">High Commitment</h3>
               <p className="text-gray-600 text-sm">
                 Dedicated to providing exceptional security solutions tailored to client needs.
@@ -337,7 +337,7 @@ export default function Home() {
 
             {/* Card 5 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 delay-700 ${objectivesVisible ? '-translate-x-0 opacity-100' : 'translate-x-full opacity-0'}`}>
-              <Bell className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <Bell className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Alertness & Dedication</h3>
               <p className="text-gray-600 text-sm">
                 Maintaining constant vigilance and unwavering commitment to client safety.
@@ -346,7 +346,7 @@ export default function Home() {
 
             {/* Card 6 */}
             <div className={`bg-white px-6 py-8 text-center shadow-lg transition-all duration-1000 delay-1000 ${objectivesVisible ? '-translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
-              <Settings className="w-10 h-10 mx-auto text-orange-500 mb-4" />
+              <Settings className="w-10 h-10 mx-auto text-red-700 mb-4" />
               <h3 className="text-lg font-semibold mb-3">Best Practices Implementation</h3>
               <p className="text-gray-600 text-sm">
                 Applying industry best practices and innovative security methodologies.
@@ -356,7 +356,7 @@ export default function Home() {
 
           {/* Button */}
           <div className="text-center mt-12">
-            <button className="bg-black text-white px-10 py-3 text-sm tracking-widest hover:bg-orange-500 transition">
+            <button className="bg-black text-white px-10 py-3 text-sm tracking-widest hover:bg-red-600 transition">
               READ MORE
             </button>
           </div>
@@ -383,7 +383,7 @@ export default function Home() {
               {/* Text Content */}
               <div className="relative z-10">
                 <h2 className="text-3xl font-bold text-black mb-4">Why Choose Us</h2>
-                <div className="w-16 h-1 bg-orange-500 mb-6 mx-auto md:mx-auto md:ml-auto"></div>
+                <div className="w-16 h-1 bg-red-600 mb-6 mx-auto md:mx-auto md:ml-auto"></div>
               </div>
             </div>
             
@@ -396,7 +396,7 @@ export default function Home() {
                     onClick={() => setActiveTab(1)}
                     className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
                       activeTab === 1 
-                        ? 'bg-orange-500 text-white' 
+                        ? 'bg-red-600 text-white' 
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
@@ -406,7 +406,7 @@ export default function Home() {
                     onClick={() => setActiveTab(2)}
                     className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
                       activeTab === 2 
-                        ? 'bg-orange-500 text-white' 
+                        ? 'bg-red-600 text-white' 
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
@@ -416,7 +416,7 @@ export default function Home() {
                     onClick={() => setActiveTab(3)}
                     className={`px-3 py-1 rounded-md text-xs font-medium transition-colors ${
                       activeTab === 3 
-                        ? 'bg-orange-500 text-white' 
+                        ? 'bg-red-600 text-white' 
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
@@ -471,21 +471,21 @@ export default function Home() {
           <div className="overflow-hidden">
             <marquee behavior="scroll" direction="left" scrollamount="15">
               <div className="flex gap-6">
-                <img src="/images/client1.jpg" alt="Client 1" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client2.jpg" alt="Client 2" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client3.jpg" alt="Client 3" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client4.jpg" alt="Client 4" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client5.jpg" alt="Client 5" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client6.jpg" alt="Client 6" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client7.jpg" alt="Client 7" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client8.jpg" alt="Client 8" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client9.jpg" alt="Client 9" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client10.jpg" alt="Client 10" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client11.jpg" alt="Client 11" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client12.jpg" alt="Client 12" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client13.jpg" alt="Client 13" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client14.jpg" alt="Client 14" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
-                <img src="/images/client15.jpg" alt="Client 15" className="h-20 w-40 object-contain border-2 border-orange-500 rounded" />
+                <img src="/images/client1.jpg" alt="Client 1" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client2.jpg" alt="Client 2" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client3.jpg" alt="Client 3" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client4.jpg" alt="Client 4" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client5.jpg" alt="Client 5" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client6.jpg" alt="Client 6" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client7.jpg" alt="Client 7" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client8.jpg" alt="Client 8" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client9.jpg" alt="Client 9" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client10.jpg" alt="Client 10" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client11.jpg" alt="Client 11" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client12.jpg" alt="Client 12" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client13.jpg" alt="Client 13" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client14.jpg" alt="Client 14" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
+                <img src="/images/client15.jpg" alt="Client 15" className="h-20 w-40 object-contain border-2 border-gray-500 rounded" />
               </div>
             </marquee>
           </div>
@@ -507,10 +507,10 @@ export default function Home() {
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="h-32 sm:h-40 lg:h-32 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
             <div className="text-white max-w-3xl text-center sm:text-left">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 whitespace-normal sm:whitespace-nowrap">WHY APPROACH PIONEER FOR SECURITY SERVICES</h2>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2 whitespace-normal sm:whitespace-nowrap">WHY APPROACH ACTIVE FOR SECURITY SERVICES</h2>
               <p className="text-sm sm:text-base lg:text-lg whitespace-normal sm:whitespace-nowrap">We commit ourselves to by providing trained, disciplined, motivated security personnel to complete satisfaction of our esteemed clients.</p>
             </div>
-            <button className="px-3 sm:px-6 py-1.5 sm:py-3 bg-orange-500 text-white font-bold rounded hover:bg-orange-600 text-xs sm:text-base">CONTACT US</button>
+            <button className="px-3 sm:px-6 py-1.5 sm:py-3 bg-red-600 text-white font-bold rounded hover:bg-orange-600 text-xs sm:text-base">CONTACT US</button>
           </div>
         </div>
       </section>
